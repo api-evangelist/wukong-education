@@ -1,0 +1,46 @@
+generated: '2026-07-21'
+method: searched
+source: live HTTP probes of wukongsch.com hosts
+note: >-
+  No genuine /.well-known/ documents were retrievable. www.wukongsch.com sits
+  behind a Vercel Security Checkpoint that returns HTTP 429 for all non-browser
+  traffic. student.wukongsch.com answers 200 for every path (SPA catch-all,
+  text/html) including a control nonexistent path, so its 200s are not real
+  well-known documents. No files were saved.
+hosts:
+- host: https://www.wukongsch.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 429
+  - path: /.well-known/openid-configuration
+    status: 429
+  - path: /.well-known/oauth-authorization-server
+    status: 429
+  - path: /.well-known/api-catalog
+    status: 429
+  - path: /.well-known/ai-plugin.json
+    status: 429
+  - path: /llms.txt
+    status: 429
+- host: https://student.wukongsch.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    content_type: text/html
+    catch_all: true
+  - path: /.well-known/openid-configuration
+    status: 200
+    content_type: text/html
+    catch_all: true
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    content_type: text/html
+    catch_all: true
+  - path: /.well-known/api-catalog
+    status: 200
+    content_type: text/html
+    catch_all: true
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    content_type: text/html
+    catch_all: true

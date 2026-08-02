@@ -1,0 +1,22 @@
+# WuKong Education
+
+> WuKong Education (wukongsch.com) is an online education company headquartered in Auckland, New Zealand, offering live online classes in Chinese language, math, and English ELA for kids aged roughly 3-18, taught by certified teachers to students across 100+ countries and regions. It is a consumer edtech business: it publishes no public developer portal, API documentation, or machine-readable API specifications.
+
+WuKong Education is profiled in the API Evangelist network as a portfolio company of Bessemer Venture Partners. This file was generated from the catalog profile because the provider does not publish its own llms.txt (the main site is served behind a Vercel Security Checkpoint that blocks automated clients with HTTP 429).
+
+## Website
+
+- [WuKong Education homepage](https://www.wukongsch.com/en): Live online Chinese, Math, and English ELA classes for kids
+- [Student center](https://student.wukongsch.com/en/): Student login and classroom portal
+- [Blog](https://www.wukongsch.com/blog/): Learning resources and company blog
+- [FAQ](https://www.wukongsch.com/faq/): Help and frequently asked questions
+- [Terms of service](https://www.wukongsch.com/terms/)
+- [Privacy policy](https://www.wukongsch.com/policy/)
+
+## APIs
+
+No public APIs are documented by this provider.
+
+## Catalog
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/wukong-education/refs/heads/main/apis.yml): Machine-readable profile of this provider in the API Evangelist network

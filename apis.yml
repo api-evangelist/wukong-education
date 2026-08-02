@@ -1,8 +1,23 @@
 aid: wukong-education
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wukong-education.png
 name: Wukong Education
-description: 'Wukong Education is a company surfaced as a portfolio company of bessemer-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: WuKong Education is an online education company headquartered in Auckland,
+  New Zealand that delivers live online classes in Chinese language, math, and English
+  ELA for kids, taught by certified teachers to students across more than 100 countries
+  and regions. Surfaced in the API Evangelist network as a portfolio company of Bessemer
+  Venture Partners, it is a consumer edtech business with a student classroom portal
+  but no public developer portal or documented APIs.
 url: https://raw.githubusercontent.com/api-evangelist/wukong-education/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +26,21 @@ x-backed-by:
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Education
+- EdTech
+- Online Learning
+- Language Learning
+- Tutoring
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,19 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/wukong-education-domain-security.yml
 - type: Website
   url: https://www.wukongsch.com/en
+- type: Login
+  url: https://student.wukongsch.com/en/
+- type: Blog
+  url: https://www.wukongsch.com/blog/
+- type: Support
+  url: https://www.wukongsch.com/faq/
+- type: TermsOfService
+  url: https://www.wukongsch.com/terms/
+- type: PrivacyPolicy
+  url: https://www.wukongsch.com/policy/
+- type: LLMsTxt
+  url: llms/wukong-education-llms.txt
